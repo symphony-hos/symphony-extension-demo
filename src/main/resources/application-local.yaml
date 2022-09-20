@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      port: 27017
+      host: 127.0.0.1
+      username: symphony-demo
+      password: symphony-demo
+      database: symphony-demo
+      authentication-database: symphony-demo
+  rabbitmq:
+    host: 127.0.0.1
+    username: rabbitmq
+    password: rabbitmq
